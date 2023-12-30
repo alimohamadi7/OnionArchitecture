@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnionArchitecture.Contracts\OnionArchitecture.Contracts.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.DomainModels\OnionArchitecture.DomainModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Categories\" />
+    <Folder Include="Customers\" />
+    <Folder Include="Products\" />
+  </ItemGroup>
+
+</Project>
